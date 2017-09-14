@@ -35,6 +35,17 @@ header {
     transform: scaleX(-1);
   }
 }
+@media screen and (max-width:550px){
+
+}
+@media screen and (max-width:930px){
+  header {
+    height: auto;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
 </style>
 <script>
 import Thumbnail from '@/components/Thumbnail'

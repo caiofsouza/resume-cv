@@ -74,6 +74,27 @@
     top: 25px;
   }
 }
+@media screen and (max-width:999px){
+  .block{
+    padding-left: 30px;
+
+    .title{
+      font-size:16px;
+    }
+    .company {
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (max-width:550px){
+  .block{
+    padding-left:0px;
+
+    &::before{
+      display: none;
+    }
+  }
+}
 </style>
 <script>
 export default {

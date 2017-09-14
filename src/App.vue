@@ -57,9 +57,15 @@ export default {
     font-size: 27px;
     letter-spacing: 0.5px;
     font-weight: 400;
-    text-transform: lowercase;
+    text-transform: capitalize;
     float: left;
     width: 90%;
+  }
+}
+@media screen and (max-width:999px){
+  .section-title{
+    padding-left: 15px;
+    box-sizing: border-box;
   }
 }
 </style>

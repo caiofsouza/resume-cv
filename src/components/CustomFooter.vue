@@ -8,13 +8,13 @@
         <div class="github-icon">
           <img src="../assets/github-icon.png" alt="" class="black-icon">
           <a href="https://github.com/caiofsouza" target="_blank" class="blue-icon">
-            <img src="../assets/github-blue-icon.png" alt="Github" title="Acessar Github">
+            <img src="../assets/github-blue-icon.png" alt="Github" title="Acessar meu Github">
           </a>
         </div>
         <div class="linkedin-icon">
           <img src="../assets/linkedin-icon.png" alt="" class="black-icon">
           <a href="https://www.linkedin.com/in/caiofsouza/" target="_blank" class="blue-icon">
-            <img src="../assets/linkedin-blue-icon.png" alt="Linkedin" title="Acessar Linkedin">
+            <img src="../assets/linkedin-blue-icon.png" alt="Linkedin" title="Acessar meu Linkedin">
           </a>
         </div>
       </div>
@@ -74,6 +74,28 @@ footer {
   top: 40px;
   left: 0px;
   cursor:pointer;
+}
+@media screen and (max-width:999px){
+  footer {
+    margin-top:30px;
+
+    .access-this-code, .icons-container {
+      display: block;
+      width: 100%;
+      text-align: center;
+      float: none !important;
+      clear: both;
+      line-height: 20px !important;
+    }
+    .access-this-code{
+      margin-bottom: 15px;
+    }
+  }
+}
+@media screen and (max-width:550px){
+  footer{
+    padding: 10px;
+  }
 }
 </style>
 <script>

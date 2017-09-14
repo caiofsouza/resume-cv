@@ -1,13 +1,11 @@
 const store = {
   state: {
     name: 'Caio Fernandes',
-    position: '',
-    profileImage: '../assets/caio-profile.jpg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Doloremque quam inventore quo nulla! Quas et sequi eos non maiores aperiam.
-          Cupiditate nam corrupti eveniet deserunt eligendi magnam saepe quos provident.
-          Cupiditate nam corrupti eveniet deserunt eligendi magnam saepe quos provident.
-          Quam inventore quo nulla! Quas et sequi eos non maiores aperiam.`,
+    position: 'Desenvolvedor FullStack',
+    description: `Olá! Sou Caio Fernandes, de São Paulo - SP. Sou desenvolvedor web há cerca de 4 anos e 
+    minhas habilidades vão desde o pixel perfect até a estrutura do projeto.<br>
+    Atualmente estou me aprofundando sobre padrões de projeto em Javascript, mais sobre as novas dos ES6, ES7 e ES8 e bancos de dados noSQL, como RethinkDB, OrientDB, ArangoDB e MongoDB.<br>
+    Na empresa onde trabalho essas tecnologias geram ótimas discussões na chapter de front-end, onde participo como líder.`,
     birth: '23/08/1993',
     address: 'São Paulo, SP',
     phone: '(11) 96647-8870',
@@ -40,14 +38,14 @@ const store = {
       {
         position: 'Desenvolvedor Fullstack Pleno',
         company: 'Steal The Look Portal de Moda',
-        duration: '06/2015 - 09/2015',
+        duration: '06/2015 - 11/2015',
         description: `Desenvolvimento de sistema em PHP de cadastro de usuários.<br>
         Alterações no site principal, desenvolvido em Wordpress.<br>
         Correções de layout e instalação de plugins no Wordpress.`,
         skills: ['HTML', 'CSS', 'Javascript', 'PHP', 'Wordpress', 'Email Marketing', 'Google Analytics']
       },
       {
-        position: 'Desenvolvedor Front End Pleno',
+        position: 'Desenvolvedor Front-end Pleno',
         company: 'Ideia de Web',
         duration: '08/2014 - 05/2015',
         description: `Criação de sites institucionais, blogs (com Wordpress) e sistemas web.<br> 
@@ -90,15 +88,6 @@ const store = {
         startEnd: '2013 - Atual (incompleto)'
       }
     ]
-  },
-  mutations: {
-
-  },
-  actions: {
-
-  },
-  getters: {
-
   }
 }
 

@@ -47,6 +47,7 @@
 }
 .circles-container{
   float: right;
+  margin-top: 7px;
 }
 .another-skills{
   margin-top: 40px;
@@ -59,6 +60,22 @@
   }
   p {
     font-size:15px;
+  }
+}
+@media screen and (min-width:551px) and (max-width:999px){
+  .circles-container{
+    float: none;
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width:550px){
+  .skills-container{
+    padding-left: 0px;
+  }
+  .circle-skill{
+    width: 14px;
+    height: 14px;
+    margin-left:4px;
   }
 }
 </style>

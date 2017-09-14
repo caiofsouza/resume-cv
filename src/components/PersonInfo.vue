@@ -1,9 +1,7 @@
 <template>
   <div class="person-info">
     <h2>{{ name }}</h2>
-    <p class="person-description">
-      {{ description }}
-    </p>
+    <p class="person-description" v-html="description"></p>
     <div class="row">
       <div class="four columns">
         <ul class="person-more-info">
@@ -26,13 +24,14 @@
 </template>
 <style lang="scss" scoped>
 * {
-  color: #3e3e3e;
+  color: #171717;
   letter-spacing: 0.4px;
-  font-size: 14px;
+  font-size: 15px;
 }
 .person-description{
   border-bottom:1px solid #a5a5a5;
   padding-bottom:20px;
+  font-size: 15px;
 }
 h2{
   font-size: 31px;
@@ -49,6 +48,16 @@ h2{
     strong{
       font-weight: 700;
     }
+  }
+}
+@media screen and (max-width:550px){
+  .four.columns:nth-child(1){
+    float: left;
+    width: 35%;
+  }
+  .four.columns:nth-child(2){
+    float: left;
+    width: 65%;
   }
 }
 </style>

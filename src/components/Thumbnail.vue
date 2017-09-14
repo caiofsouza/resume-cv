@@ -41,14 +41,22 @@ $mainGray: #a5a5a5;
     border:1px solid $mainGray;
   }
 }
+@media screen and (max-width:550px){
+  .thumbnail{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width:550px) and (max-width:770px){
+  .thumbnail{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
 </style>
 <script>
-import { mapState } from 'vuex'
-
 export default {
-  name: 'Thumbnail',
-  computed: mapState([
-    'profileImage'
-  ])
+  name: 'Thumbnail'
 }
 </script>
