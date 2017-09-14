@@ -40,7 +40,7 @@ export default {
   font-family: 'Titillium Web', sans-serif;
 }
 .portfolio-content {
-  padding-top: 60px;
+  padding-top: 60px !important;
 }
 .section-title-block{
   i{
