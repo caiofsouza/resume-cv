@@ -1,10 +1,9 @@
 <template>
   <div class="person-info">
     <h2>{{ name }}</h2>
-    <p>
+    <p class="person-description">
       {{ description }}
     </p>
-    <hr>
     <div class="row">
       <div class="four columns">
         <ul class="person-more-info">
@@ -27,19 +26,29 @@
 </template>
 <style lang="scss" scoped>
 * {
-  color:#d8d8d8;
-  letter-spacing: 0.7px;
+  color: #3e3e3e;
+  letter-spacing: 0.4px;
   font-size: 14px;
 }
+.person-description{
+  border-bottom:1px solid #a5a5a5;
+  padding-bottom:20px;
+}
 h2{
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 31px;
+  letter-spacing: 0.7px;
+  font-weight: 700;
 }
 .person-more-info{
   list-style: none;
   li {
     display: inline-block;
     width:100%;
+    font-weight: 600;
+
+    strong{
+      font-weight: 700;
+    }
   }
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class="thumbnail">
-    <img :src="profileImage" alt="">
+    <img src="../assets/caio-profile.jpg" alt="Oie" title="Caio Fernandes diz olá">
   </div>
 </template>
 <style lang="scss" scoped>
-$mainGray: #a9a9a9;
+$mainGray: #a5a5a5;
 .thumbnail{
   border: 1px solid $mainGray;
   width:100%;
@@ -32,10 +32,13 @@ $mainGray: #a9a9a9;
     top: 25px;
   }
   img{
+    width:200px;
+    height:200px;
     border-radius: 50%;
     position: relative;
     top: 75px;
     z-index: 10;
+    border:1px solid $mainGray;
   }
 }
 </style>

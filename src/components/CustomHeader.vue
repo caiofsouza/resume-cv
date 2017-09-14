@@ -1,6 +1,5 @@
 <template>
   <header>
-    <div class="bg-layer"></div>
     <div class="container">
       <div class="row">
         <div class="five columns">
@@ -17,15 +16,15 @@
 <style lang="scss" scoped>
 header {
   position: relative;
-  height: 520px;
-  padding-top:70px;
+  height: 600px;
+  padding-top: 100px;
   box-sizing: border-box;
 
   &::after{
-     content: "";
-    background: url(/static/img/bg-header.fbaa974.jpg) no-repeat;
+    content: "";
+    background: url(../assets/mountain-bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center top;
     opacity: 0.7;
     top: 0;
     left: 0;
@@ -34,14 +33,6 @@ header {
     position: absolute;
     z-index: -1;
     transform: scaleX(-1);
-  }
-  .bg-layer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.7);
-    left: 0px;
   }
 }
 </style>
