@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="access-this-code">
-        <p>Desenvolvido com Vue.js, Vuex, Webpack and SASS. Quer ver ? <a href="" target="_blank">Acesse o repositório.</a></p>
+        <p>Desenvolvido com Vue.js, Vuex, Webpack and SASS. Quer ver ? <a href="https://github.com/caiofsouza/resume-cv" target="_blank">Acesse o repositório.</a></p>
       </div>
       <div class="icons-container">
         <div class="github-icon">
