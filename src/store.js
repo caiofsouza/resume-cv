@@ -3,27 +3,32 @@ const store = {
     name: 'Caio Fernandes',
     position: 'Desenvolvedor FullStack',
     description: `Olá! Sou Caio Fernandes, de São Paulo - SP. Sou desenvolvedor web há cerca de 4 anos e 
-    minhas habilidades vão desde o pixel perfect até a estrutura do projeto.<br>
-    Atualmente estou me aprofundando sobre padrões de projeto em Javascript, mais sobre as novas dos ES6, ES7 e ES8 e bancos de dados noSQL, como RethinkDB, OrientDB, ArangoDB e MongoDB.<br>
-    Na empresa onde trabalho essas tecnologias geram ótimas discussões na chapter de front-end, onde participo como líder.`,
+    minhas habilidades vão desde o pixel perfect até a arquitetura de um projeto web.<br>
+    Atualmente estou me aprofundando sobre padrões de projeto em Javascript, arquitetura de microserviços com Docker e RabbitMQ, 
+    React Native e bancos de dados NoSQL como MongoDB e ArangoDB
+    .<br>`,
     birth: '23/08/1993',
     address: 'São Paulo, SP',
     phone: '(11) 96647-8870',
     email: 'caio_fsouza@hotmail.com',
     experiences: [
       {
-        position: 'Engenheiro de Software Líder',
+        position: 'Engenheiro de Software',
         company: 'Icolabora',
         duration: '07/2017 - Atual',
         description: `Líder da Chapter de Front-end (Cultura de engenharia do Spotify), 
         responsável por definir técnicas e 
         métodos para criar padrões Javascript na empresa 
         e auxiliar na redução de débitos técnicos. <br>
-        Pesquisa e desenvolvimentos de novos frameworks e 
+        - Pesquisa e desenvolvimentos de novos frameworks e 
         tecnologias para melhorar a stack atual, como Node.js frameworks e bibliotecas, 
         testes de stress com Python, Javascript (ES2015, ES2016), Single Page Applications (Vue.js e React), 
-        REST Apis com Express, comunicações realtime com OrientDB, RethinkDB e Socket.io`,
-        skills: ['Javascript', 'CSS', 'HTML', 'Vue.js', 'jQuery', 'MongoDB', 'NodeJS', 'MySQL', 'Docker', 'ElasticSearch', 'Ruby', 'TitanGraph', 'Nginx', 'Java']
+        REST Apis com Express, comunicações realtime com OrientDB, RethinkDB e Socket.io.<br>
+        - Participação na criação de microserviços internos com Docker, RabbitMQ, MongoDB e Node.js.<br>
+        - Participação e estruturação em projeto de chat com Node.js, MongoDB, HTML, CSS e Javascript.<br>
+        - Desenvolvimento de dashboards analíticos utilizando Elasticsearch, MySQL e Rythm(Template Engine).<br>
+        `,
+        skills: ['Javascript', 'CSS', 'HTML', 'Vue.js', 'jQuery', 'MongoDB', 'NodeJS', 'MySQL', 'Docker', 'RabbitMQ', 'ElasticSearch', 'Ruby', 'TitanGraph', 'Nginx', 'Java']
       },
       {
         position: 'Desenvolvedor Fullstack Sênior',
